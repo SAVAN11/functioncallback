@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("button").dblclick(function(){
+    $("p").hide("fast", function(){
+       
+      alert("The paragraph is now hidden");
+    });
+    
+  });
+});
+</script>
+</head>
+<body>
+<p id="p1">SILVER OAK UNIVERSITY.</p>
+
+<p>silver oak university is premier privte university carrying  forward the legacy of silver oak group of institutes.</p>
+<button> Press The Button </button>
+
+</body>
+</html>
